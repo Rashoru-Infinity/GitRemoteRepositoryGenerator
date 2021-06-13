@@ -5,9 +5,10 @@ The server-side program becomes a daemon process and continues to run.
 Once you launch the server program, you can then create a git repository without logging in to its host machine.  
   
 # Requirement
-Ubuntu : gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0  
-Raspbian : gcc (Raspbian 8.3.0-6+rpi1) 8.3.0  
-You may need to install OpenSSL 1.1.1.  
+- [OpenSSL 1.1.1](https://github.com/openssl/openssl/tree/OpenSSL_1_1_1-stable)
+## DevelopmentEnvironment
+- Client Side : Ubuntu : gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0  
+- Server Side : Raspbian : gcc (Raspbian 8.3.0-6+rpi1) 8.3.0  
   
 # Installation
 ・OpenSSL
